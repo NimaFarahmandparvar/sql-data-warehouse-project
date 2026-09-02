@@ -3,8 +3,9 @@
 Stored Procedure: Loading The Silver Layer
 =================================================================
 Scrip Purpose:
-	This script includes one stored procedure which inserts
-	data from Bronze schema tables. 
+	This script includes one stored procedure which performs
+	ETL (Exract, Transform, Load) process to populate
+	'silver' schema tables from the 'bronze' schema. 
 	Furthermore, it calculates the duration of each table 
 	truncation and insertion.
 
